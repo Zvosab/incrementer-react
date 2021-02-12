@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  background: rgb(26, 25, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 25, 46, 1) 0%,
+    rgba(159, 159, 162, 1) 47%,
+    rgba(92, 106, 108, 1) 71%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+  box-shadow: 3px 3px 5px black;
+  height: 300px;
+  width: 250px;
+  border-radius: 7px;
+  background: rgba(54, 54, 54, 0.3);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  background: grey;
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 5px black;
+}
+
+#increment-btn {
+  color: blue;
+}
+
+#decrement-btn {
+  color: red;
+}
+
+#increment-btn,
+#decrement-btn,
+#reset-btn {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  margin: 7px;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px black;
+}
+
+.buttons {
+  width: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
